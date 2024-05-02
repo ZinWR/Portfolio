@@ -1,3 +1,3 @@
-# Quan's Portfolio Website
+# Quan Nguyen Portfolio Website
 
-Under construction!
+A simple portfolio website using React, React-Three-Fiber, and Framer Motion
