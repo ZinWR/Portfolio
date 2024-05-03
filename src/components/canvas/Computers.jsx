@@ -1,4 +1,4 @@
-import React, { Suspense, useEffect, useState } from 'react';
+import { Suspense, useEffect, useState } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Preload, useGLTF } from '@react-three/drei';
 import CanvasLoader from '../Loader';
@@ -25,7 +25,7 @@ const ComputersCanvas = () => {
       gl={{ preserveDrawingBuffer: true }}
     >
       {/* Lazy Loading */}
-      <Suspense fallback={<CanvasLoader />}>
+      <Suspense>
         <OrbitControls 
           enableZoom={false} 
           maxPolarAngle={Math.PI / 2}
@@ -39,4 +39,4 @@ const ComputersCanvas = () => {
   );
 };
 
-export default Computers;
+export default ComputersCanvas;
