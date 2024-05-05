@@ -21,7 +21,7 @@ const ExperienceCard = ({ experience }) => (
           <img
             src={experience.icon}
             alt={experience.company_name}
-            className='w-[60%] h-[60%] object-contain'
+            className='w-11 h-11 object-cover rounded-full'
           />
         </div>
       }
@@ -32,8 +32,9 @@ const ExperienceCard = ({ experience }) => (
           className='text-secondary text-[16px] font-semibold'
           style={{ margin: 0 }}
         >
-          {experience.company_name}
+          {experience.link ? <a href={experience.link} target="_blank" className='underline hover:text-blue-400'>{experience.company_name}</a>: experience.company_name}
         </p>
+        <p className='text-[16px] font-semibold'>{experience.about}</p>
       </div>
 
       <ul className='mt-5 list-disc ml-5 space-y-2'>

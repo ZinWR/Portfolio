@@ -21,10 +21,10 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
 import docketeer from "./company/docketeer.png";
-import tesla from "./company/tesla.png";
+import cubegame from "./company/cubegame.png";
+import techtango from "./company/techtango.png";
+import twitch from "./company/twitch.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -52,10 +52,10 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
   docketeer,
-  tesla,
+  cubegame,
+  techtango,
+  twitch,
   carrent,
   jobit,
   tripguide,
