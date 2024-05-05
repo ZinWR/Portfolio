@@ -16,7 +16,7 @@ import {
     figma,
     docker,
     meta,
-    starbucks,
+    docketeer,
     tesla,
     shopify,
     carrent,
@@ -42,11 +42,11 @@ export const navLinks = [
   
 const services = [
     {
-      title: "Software Engineer",
+      title: "Software Development Engineer",
       icon: web,
     },
     {
-      title: "Software Development Engineer",
+      title: "Software Engineer",
       icon: mobile,
     },
     {
@@ -116,21 +116,26 @@ const technologies = [
   
 const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Software Development Engineer",
+      company_name: "Docketeer",
+      icon: docketeer,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "January 2023 - Present",
+      about: "Docker container & Kubernetes monitoring tool serves over 9k users and offers insightful metrics to identify performance bottlenecks.",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Led a team of engineers to enhance Docker image security measures through strategic integration of Grype, effectively reducing dependency risks and fortifying security measures, resulting in a 25% decrease in potential security threats.",
+        "Pioneered user scan history management system with MongoDB schema to facilitate horizontal scaling, improve load balancing, and alleviate server-side rendering while complementing the existing PostgreSQL database.",
+        "Modified Prometheus and Grafana configurations to precisely extract crucial Docker and Kubernetes metrics, eliminating irrelevant metrics unrelated to microservices, and improving overall performance by 44%.",
+        "Centralized state management with Redux Toolkit in conjunction with Redux Thunk middleware for async actions to increase the application's scalability and efficiency by minimizing unnecessary API requests, resulting in a more responsive and efficient user experience.",
+        "Optimized Rest APIs by cleaning up existing endpoints built prematurely to be more intuitive, uniform, and concise by reducing 40 - 50 lines of code per API request.",
+        "Migrated approximately 60% of legacy JavaScript codes, comprising over 6,000 lines of code, to TypeScript while refactoring loose types such as 'any' to more explicit and restrictive type definitions, improving code maintainability and catching potential runtime errors during compilation.",
+        "Completely redesigned 90% of the user interface design with contemporary UI libraries such as MaterialUI with reusable components to complement the product's main theme.",
+        "Updated 6 outdated and implemented new unit Jest tests for newly developed features, leveraging Jest's assertion library and mock functions to prevent regression and fortify the test suite's robustness."
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
+      title: "Software Engineer",
+      company_name: "CubeGame - Open Source",
       icon: tesla,
       iconBg: "#E6DEDD",
       date: "Jan 2021 - Feb 2022",
