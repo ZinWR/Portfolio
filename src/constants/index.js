@@ -157,7 +157,7 @@ const experiences = [
       iconBg: "#383E56",
       date: "2024 - Present",
       about: "An engineering team social media app to connect new peers to old peers, increasing team dynamics, teamwork, and productivity.",
-      stack: ["Bcrypt-encryption"],
+      stack: ["Bcrypt"],
       points: [
         "Implemented Bcrypt encryption with authentication and authorization systems, resulting in a 20% decrease in security breaches.",
       ],
@@ -168,7 +168,7 @@ const experiences = [
       icon: twitch,
       iconBg: "#E6DEDD",
       date: "2021 - 2023",
-      stack: ["Photoshop", "Adobe-Premiere-Pro"],
+      stack: ["Photoshop", "Premiere-Pro"],
       points: [
         "Managed a team of 19 moderators, overseeing chat moderation, channel security, and audience engagement initiatives, resulting in a 30% decrease in chat toxicity and a 15% increase in viewer satisfaction scores.",
         "Crafted and refined video content utilizing advanced Photoshop and Adobe Premiere Pro techniques to ensure coherent integration of visuals and audio components, optimizing for aesthetic appeal and technical precision.",

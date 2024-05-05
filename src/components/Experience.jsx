@@ -49,11 +49,12 @@ const ExperienceCard = ({ experience }) => (
         ))}
       </ul>
 
-      <p className='text-cyan-100 text-[16px]'>
+      {/* HashTag */}
+      <div className='mt-2 text-cyan-100 text-[16px] max-w-[calc(100% - 40px)]'>
         {experience.stack.map((stack, index) => (
-        <span key={`stack-${index}`} className="mr-2">#{stack}</span>
+          <div key={`stack-${index}`} className="inline-block mr-2 italic">#{stack}</div>
         ))}
-      </p>
+      </div>
     </VerticalTimelineElement>
 )
 
