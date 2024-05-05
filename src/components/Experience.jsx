@@ -21,7 +21,7 @@ const ExperienceCard = ({ experience }) => (
           <img
             src={experience.icon}
             alt={experience.company_name}
-            className='w-11 h-11 object-cover rounded-full'
+            className='w-12 h-11 object-cover rounded-full'
           />
         </div>
       }
@@ -37,6 +37,7 @@ const ExperienceCard = ({ experience }) => (
         <p className='text-[16px] font-semibold'>{experience.about}</p>
       </div>
 
+      {/* Bullet Points */}
       <ul className='mt-5 list-disc ml-5 space-y-2'>
         {experience.points.map((point, index) => (
           <li
@@ -47,6 +48,12 @@ const ExperienceCard = ({ experience }) => (
           </li>
         ))}
       </ul>
+
+      <p className='text-cyan-100 text-[16px]'>
+        {experience.stack.map((stack, index) => (
+        <span key={`stack-${index}`} className="mr-2">#{stack}</span>
+        ))}
+      </p>
     </VerticalTimelineElement>
 )
 

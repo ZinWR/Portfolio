@@ -123,8 +123,9 @@ const experiences = [
       date: "2023 - Present",
       about: "Docker container & Kubernetes monitoring tool serves over 9k users - offers insightful metrics to identify performance bottlenecks.",
       link: "https://docketeer.io/",
+      stack: ["Grype", "MongoDB", "PostgreSQL", "Prometheus", "Grafana", "Redux-Toolkit", "Rest APIs", "TypeScript", "MaterialUI", "Jest"],
       points: [
-        "Led a team of engineers to enhance Docker image security measures through strategic integration of Grype, effectively reducing dependency risks and fortifying security measures, resulting in a 25% decrease in potential security threats.",
+        `Led a team of engineers to enhance Docker image security measures through strategic integration of Grype, effectively reducing dependency risks and fortifying security measures, resulting in a 25% decrease in potential security threats.`,
         "Pioneered user scan history management system with MongoDB schema to facilitate horizontal scaling, improve load balancing, and alleviate server-side rendering while complementing the existing PostgreSQL database.",
         "Modified Prometheus and Grafana configurations to precisely extract crucial Docker and Kubernetes metrics, eliminating irrelevant metrics unrelated to microservices, and improving overall performance by 44%.",
         "Centralized state management with Redux Toolkit in conjunction with Redux Thunk middleware for async actions to increase the application's scalability and efficiency by minimizing unnecessary API requests, resulting in a more responsive and efficient user experience.",
@@ -142,6 +143,7 @@ const experiences = [
       date: "2024 - Present",
       about: "An immersive 3D ice breaker game for onboarding engineers.",
       link: "https://github.com/ZinWR/CubeGame",
+      stack: ["ThreeJS", "WebGL", "Vanilla-JavaScript", "jQuery", "Webpack"],
       points: [
         "Independently built an immersive ice-breaker 3D web application game with Three.js and WebGL, dynamically updating object positions based on user input while calculating 3D coordinates for their velocity, gravity fall, and unit collision.",
         "Leveraged the versatility of Vanilla JavaScript and jQuery to engineer an interactive leaderboard system with efficient sorting, searching, and event-handling logic, leading to a 50% boost in user satisfaction levels.",
@@ -155,7 +157,7 @@ const experiences = [
       iconBg: "#383E56",
       date: "2024 - Present",
       about: "An engineering team social media app to connect new peers to old peers, increasing team dynamics, teamwork, and productivity.",
-      link: "https://github.com/63-Pink-Fairy-Armadillo/TechTango",
+      stack: ["Bcrypt-encryption"],
       points: [
         "Implemented Bcrypt encryption with authentication and authorization systems, resulting in a 20% decrease in security breaches.",
       ],
@@ -166,6 +168,7 @@ const experiences = [
       icon: twitch,
       iconBg: "#E6DEDD",
       date: "2021 - 2023",
+      stack: ["Photoshop", "Adobe-Premiere-Pro"],
       points: [
         "Managed a team of 19 moderators, overseeing chat moderation, channel security, and audience engagement initiatives, resulting in a 30% decrease in chat toxicity and a 15% increase in viewer satisfaction scores.",
         "Crafted and refined video content utilizing advanced Photoshop and Adobe Premiere Pro techniques to ensure coherent integration of visuals and audio components, optimizing for aesthetic appeal and technical precision.",
