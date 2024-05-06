@@ -13,7 +13,6 @@ import {
     nodejs,
     mongodb,
     git,
-    figma,
     docker,
     docketeer,
     cubegame,
@@ -23,6 +22,9 @@ import {
     jobit,
     tripguide,
     threejs,
+    nextjs,
+    postgresql,
+    mui,
 } from "../assets";
   
 export const navLinks = [
@@ -61,6 +63,14 @@ const services = [
   
 const technologies = [
     {
+      name: "TypeScript",
+      icon: typescript,
+    },
+    {
+      name: "JavaScript",
+      icon: javascript,
+    },
+    {
       name: "HTML 5",
       icon: html,
     },
@@ -69,12 +79,8 @@ const technologies = [
       icon: css,
     },
     {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name: "TypeScript",
-      icon: typescript,
+      name: "NextJS",
+      icon: nextjs,
     },
     {
       name: "React JS",
@@ -85,12 +91,20 @@ const technologies = [
       icon: redux,
     },
     {
+      name: "Material UI",
+      icon: mui,
+    },
+    {
       name: "Tailwind CSS",
       icon: tailwind,
     },
     {
       name: "Node JS",
       icon: nodejs,
+    },
+    {
+      name: "PostgreSQL",
+      icon: postgresql,
     },
     {
       name: "MongoDB",
@@ -101,16 +115,13 @@ const technologies = [
       icon: threejs,
     },
     {
-      name: "git",
-      icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
+      name: "Docker",
       icon: docker,
+    },
+
+    {
+      name: "Git",
+      icon: git,
     },
 ];
   
