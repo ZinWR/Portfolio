@@ -18,9 +18,9 @@ import {
     cubegame,
     techtango,
     twitch,
-    carrent,
-    jobit,
-    tripguide,
+    nextprompt,
+    nextdraw,
+    ai,
     threejs,
     nextjs,
     postgresql,
@@ -218,67 +218,67 @@ const testimonials = [
   
 const projects = [
     {
-      name: "Car Rent",
+      name: "NextPrompt",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "An application manager that leverages Next-auth and Google Oauth to save your personal AI prompts for future usage so you don't have to retype them!.",
       tags: [
         {
           name: "nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "typescript",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "mongodb",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: nextprompt,
+      source_code_link: "https://github.com/ZinWR/next-prompt",
+    },
+    {
+      name: "NextDraw",
+      description:
+        "Web application that enables users to brainstorm and draw ideas on a simple canvas.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "express",
+          color: "green-text-gradient",
+        },
+        {
+          name: "socketio",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: nextdraw,
+      source_code_link: "https://github.com/ZinWR/NextDraw",
+    },
+    {
+      name: "AI-Powered 3D Ecommerce Website",
+      description:
+        "A 3D ECommerce Website that allows users to customize their shirt with their own styles and pictures (or even AI prompts).",
+      tags: [
+        {
+          name: "react-three-fiber",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "green-text-gradient",
+        },
+        {
+          name: "openai",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: ai,
+      source_code_link: "https://github.com/ZinWR/3D-Commerce-AI",
     },
 ];
   

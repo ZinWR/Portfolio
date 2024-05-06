@@ -28,9 +28,9 @@ import cubegame from "./company/cubegame.png";
 import techtango from "./company/techtango.png";
 import twitch from "./company/twitch.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import nextprompt from "./nextprompt.png";
+import nextdraw from "./nextdraw.png";
+import ai from "./ai-website.png";
 
 export {
   logo,
@@ -57,9 +57,9 @@ export {
   cubegame,
   techtango,
   twitch,
-  carrent,
-  jobit,
-  tripguide,
+  nextprompt,
+  nextdraw,
+  ai,
   nextjs,
   postgresql,
   mui,
