@@ -1,3 +1,4 @@
+// Icons
 import logo from "./logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
@@ -7,6 +8,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+// Technology
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import git from "./tech/git.png";
@@ -23,14 +25,21 @@ import nextjs from './tech/nextjs.png';
 import postgresql from './tech/postgresql.png';
 import mui from './tech/mui.png';
 
+// Experience
 import docketeer from "./company/docketeer.png";
 import cubegame from "./company/cubegame.png";
 import techtango from "./company/techtango.png";
 import twitch from "./company/twitch.png";
 
+// Company
 import nextprompt from "./nextprompt.png";
 import nextdraw from "./nextdraw.png";
 import ai from "./ai-website.png";
+
+// Endorsement
+import Alex from './endorsement/Alex.jpg';
+import Andy from './endorsement/Andy.jpg';
+import Nick from './endorsement/Nick.jpg';
 
 export {
   logo,
@@ -63,4 +72,7 @@ export {
   nextjs,
   postgresql,
   mui,
+  Alex,
+  Andy,
+  Nick
 };

@@ -25,6 +25,9 @@ import {
     nextjs,
     postgresql,
     mui,
+    Alex,
+    Andy,
+    Nick
 } from "../assets";
   
 export const navLinks = [
@@ -192,27 +195,27 @@ const experiences = [
 const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "I thought it was impossible to make a website as beautiful as our product, but Quan proved me wrong.",
+      name: "Alexander David",
+      designation: "SWE",
+      company: "Docketeer",
+      image: Alex,
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "Quan went over and beyond to optimize our product and his debugging skill is superb!",
+      name: "Andy White",
+      designation: "SWE",
+      company: "Docketeer",
+      image: Andy,
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "Quan always leads our Code Reviews and he would spend extra time to catch me up to speed and explain codes in the most detailed way as possible.",
+      name: "Nick Kravchuk",
+      designation: "SWE",
+      company: "Docketeer",
+      image: Nick,
     },
 ];
   
