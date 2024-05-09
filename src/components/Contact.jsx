@@ -26,6 +26,24 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contacts.</h3>
+
+        <form
+          ref={formRef}
+          onSubmit={handleSubmit}
+          className='mt-12 flex flex-col gap-8'
+        >
+          <label className='flex flex-col'>
+            <span className='text-white font-medium mb-4'>Your Name</span>
+            <input 
+              type='text'
+              name='name'
+              value={form.name}
+              onChange={handlChange}
+              placeholder="What's your name?"
+              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-non font-medium'
+            />
+          </label>
+        </form>
       </motion.div>
     </div>
   );
