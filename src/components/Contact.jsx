@@ -43,6 +43,35 @@ const Contact = () => {
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-non font-medium'
             />
           </label>
+          <label className='flex flex-col'>
+            <span className='text-white font-medium mb-4'>Your Email</span>
+            <input 
+              type='email'
+              name='email'
+              value={form.email}
+              onChange={handlChange}
+              placeholder="What's your email?"
+              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-non font-medium'
+            />
+          </label>
+          <label className='flex flex-col'>
+            <span className='text-white font-medium mb-4'>Your Message</span>
+            <textarea
+              rows='7' 
+              name='message'
+              value={form.message}
+              onChange={handlChange}
+              placeholder="What do you want to say?"
+              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-non font-medium'
+            />
+          </label>
+
+          <button
+            type='submit'
+            className='bg-tertiary py-3 px-8 outline-none w-fit text-whtie font-bold shadow-md shadow-primary rounded-xl'
+          >
+            {loading ? 'Sending...' : 'Send'}
+          </button>
         </form>
       </motion.div>
     </div>
