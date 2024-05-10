@@ -94,10 +94,6 @@ const technologies = [
       icon: redux,
     },
     {
-      name: "Material UI",
-      icon: mui,
-    },
-    {
       name: "Tailwind CSS",
       icon: tailwind,
     },
