@@ -11,8 +11,12 @@ const Stars = () => {
 
 const StarsCanvas = () => {
   <div className='w-full h-full absolute inset-0 z-[-1]'>
-    <Canvas>
-      
+    <Canvas camera={{ position: [0, 0, 1]}}>
+      <Suspense>
+        <Stars />
+      </Suspense>
+
+      <Preload all />
     </Canvas>
   </div>
 };
