@@ -15,8 +15,40 @@ const Contact = () => {
   });
   const [loading, setLoading] = useState(false);
 
-  const handlChange = (e) => {}
-  const handleSubmit = (e) => {}
+  const handlChange = (e) => {
+    const { name, value } = e.target;
+    setForm({ ...form, [name]: value })
+  }
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
+
+    emailjs.send(
+      'service_ekejodn', 
+      'template_cezttgg', 
+      {
+        from_name: form.name,
+        to_name: 'Quan',
+        from_email: form.email,
+        to_email: 'quanzinnguyen@gmail.com',
+        message: form.message,
+      },
+      "46vnCgqVf1ZcPFh1o"
+    )
+    .then(() => {
+      setLoading(false);
+      alert('Thank you. I will get back to you as soon as possible.');
+      setForm({
+        name: '',
+        email: '',
+        message: '',
+      })
+    }, (error) => {
+      setLoading(false);
+      console.log(error);
+      alert('Something went wrong.')
+    })
+  }
 
   return (
     <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden'>
