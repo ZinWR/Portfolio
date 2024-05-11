@@ -213,6 +213,30 @@ const testimonials = [
       company: "Docketeer",
       image: Nick,
     },
+    {
+      testimonial:
+        "I feel very accepted and even though his stream is filled with pride, he is still humble enough to accept viewers feedback that in turn makes other watcher enjoy talking more.",
+      name: "HoaqinRW",
+      designation: "Community Admin",
+      company: "Twitch",
+      image: twitch,
+    },
+    {
+      testimonial:
+        "As a player feel that he teaches me many different things. He makes me laugh and I enjoy the vibe that he brings during every stream.",
+      name: "kokusyi",
+      designation: "Community Admin",
+      company: "Twitch",
+      image: twitch,
+    },
+    {
+      testimonial:
+        "His dedication to streaming and uploading to YouTube is admirable",
+      name: "MegaKnight69_",
+      designation: "Community Admin",
+      company: "Twitch",
+      image: twitch,
+    },
 ];
   
 const projects = [
